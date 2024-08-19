@@ -5,4 +5,6 @@ const Loader = () => {
   )
 }
 
+
+//this is loader file
 export default Loader;
