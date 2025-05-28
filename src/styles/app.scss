@@ -64,8 +64,17 @@
   }
   
   .header {
+   
     @include flex(row, flex-end, stretch, 1.2rem);
     padding: 1rem;
+
+    .logo{
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #777912;
+      margin-right: auto;
+    }
+
     a {
       color: $color2;
       letter-spacing: 2px;

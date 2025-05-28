@@ -14,9 +14,9 @@ const PieCharts = () => {
               labels={["Processing", "Shipped", "Delivered"]}
               data={[12, 9, 13]}
               backgroundColor={[
-                `hsl(110,80%, 80%)`,
-                `hsl(110,80%, 50%)`,
-                `hsl(110,40%, 50%)`,
+                `hsl(183, 81.60%, 82.90%)`,
+                `hsl(184, 80.40%, 50.00%)`,
+                `hsl(186, 75.60%, 25.70%)`,
               ]}
               offset={[0, 0, 50]}
             />
@@ -44,7 +44,7 @@ const PieCharts = () => {
             <DoughnutChart
               labels={["In Stock", "Out Of Stock"]}
               data={[40, 20]}
-              backgroundColor={["hsl(269,80%,40%)", "rgb(53, 162, 255)"]}
+              backgroundColor={["hsl(303, 81.60%, 27.60%)", "rgb(105, 24, 10)"]}
               legends={false}
               offset={[0, 80]}
               cutout={"70%"}
@@ -65,11 +65,11 @@ const PieCharts = () => {
               ]}
               data={[32, 18, 5, 20, 25]}
               backgroundColor={[
-                "hsl(110,80%,40%)",
-                "hsl(19,80%,40%)",
-                "hsl(69,80%,40%)",
-                "hsl(300,80%,40%)",
-                "rgb(53, 162, 255)",
+                "hsl(110, 87.30%, 12.40%)",
+                "hsl(19, 84.30%, 27.50%)",
+                "hsl(69, 85.70%, 27.50%)",
+                "hsl(300, 62.60%, 21.00%)",
+                "rgb(12, 83, 146)",
               ]}
               legends={false}
               offset={[20, 30, 20, 30, 80]}
@@ -103,7 +103,7 @@ const PieCharts = () => {
             <DoughnutChart
               labels={["Admin", "Customers"]}
               data={[40, 250]}
-              backgroundColor={[`hsl(335, 100%, 38%)`, "hsl(44, 98%, 50%)"]}
+              backgroundColor={[`hsl(335, 58.00%, 57.10%)`, "hsl(44, 76.30%, 68.60%)"]}
               offset={[0, 50]}
             />
           </div>

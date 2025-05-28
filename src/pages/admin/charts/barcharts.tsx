@@ -28,8 +28,8 @@ const Barcharts = () => {
             data_1={[200, 444, 343, 556, 778, 455, 990]}
             title_1="Products"
             title_2="Users"
-            bgColor_1={`hsl(260, 50%, 30%)`}
-            bgColor_2={`hsl(360, 90%, 90%)`}
+            bgColor_1={`hsl(261, 87.00%, 15.10%)`}
+            bgColor_2={`hsl(0, 83.30%, 74.10%)`}
           />
           <h2>Top Products & Top Customers</h2>
         </section>
@@ -43,7 +43,7 @@ const Barcharts = () => {
             data_2={[]}
             title_1="Orders"
             title_2=""
-            bgColor_1={`hsl(180, 40%, 50%)`}
+            bgColor_1={`hsl(136, 40.20%, 50.20%)`}
             bgColor_2=""
             labels={months}
           />

@@ -18,7 +18,11 @@ const Header = () => {
   }
 
   return (
+    <>
     <nav className="header">
+    <Link className="logo" to="/" onClick={() => SetIsOpen(false)}>
+    Electro
+  </Link>
       <Link onClick={() => SetIsOpen(false)} to={"/"}>
         Home
       </Link>
@@ -54,6 +58,7 @@ const Header = () => {
         </Link>
       )}
     </nav>
+    </>
   );
 };
 

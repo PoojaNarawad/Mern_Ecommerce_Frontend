@@ -31,7 +31,7 @@ const Dashboard = () => {
             amount={true}
             value={340000}
             heading="Revenue"
-            color="rgb(0, 115, 255)"
+            color="rgb(14, 116, 241)"
           />
           <WidgetItem
             percent={-14}
@@ -62,8 +62,8 @@ const Dashboard = () => {
               data_1={[200, 444, 343, 556, 778, 455, 990]}
               title_1="Revenue"
               title_2="Transaction"
-              bgColor_1="rgb(0, 115, 255)"
-              bgColor_2="rgba(53, 162, 235, 0.8)"
+              bgColor_1="rgb(152, 93, 207)"
+              bgColor_2="rgba(203, 149, 220, 0.8)"
             />
           </div>
 
@@ -90,8 +90,8 @@ const Dashboard = () => {
               labels={["Female", "Male"]}
               data={[12, 19]}
               backgroundColor={[
-                "hsl(340, 82%, 56%)",
-                "rgba(53, 162, 235, 0.8)",
+                "hsl(340, 92.60%, 47.50%)",
+                "rgba(235, 217, 53, 0.8)",
               ]}
               cutout={90}
             />

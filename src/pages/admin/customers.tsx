@@ -54,8 +54,8 @@ const arr: Array<DataType> = [
         alt="Shoes"
       />
     ),
-    name: "Emily Palmer",
-    email: "emily.palmer@example.com",
+    name: "Stana random",
+    email: "stana.random@example.com",
     gender: "female",
     role: "user",
     action: (
@@ -75,8 +75,8 @@ const arr: Array<DataType> = [
         alt="Shoes"
       />
     ),
-    name: "May Scoot",
-    email: "aunt.may@example.com",
+    name: "Julie Roy",
+    email: "raoy.julie@example.com",
     gender: "female",
     role: "user",
     action: (
